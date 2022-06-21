@@ -7,7 +7,7 @@ import java.net.SocketException;
 public class InfoServer {
     public static final int SERVER_PORT = 5678;
     public static final int REQUEST_PORT = 6789;
-    public static final String FILE_PATH = "C:\\Users\\Daniel\\Desktop\\pruvodce-labyrintem-algoritmu-1.pdf";
+    public static final String FILE_PATH = "PATH\\pruvodce-labyrintem-algoritmu-1.pdf";
 
     public static void main(String[] args) {
         try (DatagramSocket socket = new DatagramSocket(SERVER_PORT)) {   // nastavime pocuvanie na porte
